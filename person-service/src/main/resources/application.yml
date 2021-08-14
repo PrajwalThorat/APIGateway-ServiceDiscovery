@@ -1,0 +1,13 @@
+server:
+  port: 8802
+
+spring:
+  application:
+    name: person-service
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8008/eureka
+    fetch-registry: true
+    register-with-eureka: true
